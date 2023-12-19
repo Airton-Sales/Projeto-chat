@@ -134,14 +134,14 @@ main {
     transform: translate(15%, 25px);
   }
   
-  @media (max-width: 450px) {
+  @media screen and (max-width: 450px) {
     .links a{
         flex-direction: column;
         margin: 0.5rem;
         color: red;
     }
     .container {
-        padding: 0px;
+        padding: 1px;
     }
 }
   
